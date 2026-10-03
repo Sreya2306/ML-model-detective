@@ -1,0 +1,11 @@
+pipeline_id=input("enter pipeline id:")
+inlet_pressure=float(input("enter inlet_pressure:"))
+outlet_pressure=float(input("enter outlet_pressure:"))
+flow_rate=float(input("enter flow rate:"))
+pressure_diff=inlet_pressure-outlet_pressure
+print("\n pipeline reading report")
+print(f"Pipeline ID:{pipeline_id}")
+print(f"Inlet Pressure:{inlet_pressure}")
+print(f"outlet Pressure:{outlet_pressure}")
+print(f"Pressure Difference:{pressure_diff}")
+print(f"Flow Rate :{flow_rate}")

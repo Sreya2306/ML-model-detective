@@ -1,3 +1,4 @@
+# file containning rules
 .venv/
 __pycache__/
 *.pyc
