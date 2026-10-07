@@ -1,0 +1,5 @@
+pipeline_id,inlet_pressure,outlet_pressure,flow_rate
+P-101,105.0,102.0,42.5
+P-102,110.0,100.0,38.0
+P-103,98.0,78.0,45.5
+P-104,90.0,95.0,35.0
