@@ -1,0 +1,10 @@
+[33m52a289c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: commit: updated .gitignore
+[33m77e4b1e[m HEAD@{1}: rebase (finish): returning to refs/heads/main
+[33m77e4b1e[m HEAD@{2}: rebase (continue): .gitignore file
+[33m958e362[m HEAD@{3}: pull origin main --rebase (pick): Add inlet pressure histogram
+[33m290c13f[m HEAD@{4}: pull origin main --rebase (start): checkout 290c13ff7f80d9d853258246479fcf8fa6404248
+[33mfb00abc[m HEAD@{5}: commit: .gitignore file
+[33ma834f51[m HEAD@{6}: commit: Add inlet pressure histogram
+[33m2e9dff7[m HEAD@{7}: commit (amend): Add basic plots for dataset health visualisation
+[33m581b86b[m HEAD@{8}: commit: Add basic plots for dataset health visualisation
+[33m3721f73[m HEAD@{9}: commit: Add dataset health check with pandas and basic warnings
