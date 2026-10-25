@@ -45,3 +45,22 @@ def check_duplicates(df):
         return [f"Dataset contains {duplicate_count} duplicate rows."]
 
     return []
+
+def check_class_balance(df, target_column, minority_threshold=20):
+    if target_column not in df.columns:
+        return [f"Target column '{target_column}' not found in dataset."]
+
+    class_counts = df[target_column].value_counts()
+    total_rows = len(df)
+    warnings = []
+
+    for class_value, count in class_counts.items():
+        class_percentage = (count / total_rows) * 100
+
+        if class_percentage < minority_threshold:
+            warnings.append(
+                f"Class '{class_value}' is underrepresented: "
+                f"{count} records ({class_percentage:.1f}%)."
+            )
+
+    return warnings
